@@ -4,6 +4,7 @@ import Sort from './Components/Sort'
 import FundTable from './Components/FundTable'
 
 export default function ViewDashboard() {
+
     return (
         <div className="View-dashboard">
             <FundsLeftToInvest />

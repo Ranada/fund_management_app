@@ -1,27 +1,63 @@
+h1 {
+  margin-bottom: 32px;
+}
+
+button {
+  height: 32px;
+  border-radius: 4px;
+  padding: 0 16px;
+}
+
+input {
+  height: 28px;
+  width: 160px;
+  padding: 0;
+}
+
+select {
+  height: 32px;
+  padding: 0 8px;
+  margin-bottom: 16px;
+}
+
 .App-content-container {
   width: 80%;
+  max-width: 800px;
   margin: auto;
   text-align: left;
   font-family: Roboto, Lato, Arial, Helvetica, sans-serif;
   color: rgba(0,0,0, 0.86);
 }
 
-.App-table {
+.ViewDashboard-add-funds {
+  margin-bottom: 40px;
+}
+
+.ViewDashboard-add-funds input {
+  margin-right: 8px;
+}
+
+.ViewDashboard-sort-label {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.ViewDashboard-table {
   border-collapse: collapse;
   width: 100%;
 }
 
-.App-table td {
+.ViewDashboard-table td {
   border-top: 1px solid #ddd;
   border-top: 1px solid #ddd;
   padding: 8px;
 }
 
-.App-table tr:nth-child(even){background-color: #f2f2f2;}
+.ViewDashboard tr:nth-child(even){background-color: #f2f2f2;}
 
-.App-table tr:hover {background-color: #ddd;}
+.ViewDashboard tr:hover {background-color: #ddd;}
 
-.App-table th {
+.ViewDashboard-table th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;

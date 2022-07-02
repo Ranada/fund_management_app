@@ -1,6 +1,6 @@
 export default function AddFunds() {
     return (
-        <div className="AddFunds">
+        <div className="ViewDashboard-add-funds">
             <input type="text"></input>
             <button>Add Funds</button>
         </div>

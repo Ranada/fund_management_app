@@ -1,25 +1,26 @@
+import { useState } from 'react';
+import MockData from '../../mock-data.json';
+
 export default function FundTable() {
+    const [investments, setInvestments] = useState(MockData);
+
     return (
-        <table className="App-table">
-            <thead className="App-table-headers">
+        <table className="ViewDashboard-table">
+            <thead className="ViewDashboard-table-headers">
                 <tr>
-                <th>Investment name</th>
-                <th>Amount invested</th>
+                    <th>ID</th>
+                    <th>Investment name</th>
+                    <th>Amount invested</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                <td>Fund 1</td>
-                <td>$1000</td>
-                </tr>
-                <tr>
-                <td>Fund 2</td>
-                <td>$2000</td>
-                </tr>
-                <tr>
-                <td>Fund 3</td>
-                <td>$10000</td>
-                </tr>
+                { investments.map((investment) => (
+                    <tr>
+                        <td>{investment.id}</td>
+                        <td>{investment.name}</td>
+                        <td>{investment.amount}</td>
+                    </tr>
+                ))}
             </tbody>
         </table>
     );

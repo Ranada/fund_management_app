@@ -8,7 +8,7 @@ function App() {
     <div className="App-content-container">
       <h1>{pageViewTitle}</h1>
       <ViewDashboard />
-      
+
     </div>
   );
 }
