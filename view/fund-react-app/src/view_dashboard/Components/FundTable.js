@@ -2,7 +2,7 @@ import { useState } from 'react';
 import MockData from '../../mock-data.json';
 
 export default function FundTable() {
-    const [investments, setInvestments] = useState(MockData);
+    const [investments] = useState(MockData);
 
     return (
         <table className="ViewDashboard-table">

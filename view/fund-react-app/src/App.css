@@ -29,8 +29,14 @@ select {
   color: rgba(0,0,0, 0.86);
 }
 
+.ViewDashboard-funds-left-to-invest {
+  display: inline-block;
+  margin-right: 48px;
+}
+
 .ViewDashboard-add-funds {
   margin-bottom: 40px;
+  display: inline-block;
 }
 
 .ViewDashboard-add-funds input {
