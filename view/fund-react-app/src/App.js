@@ -1,13 +1,14 @@
 import './App.css';
+import ViewDashboard from './view_dashboard/ViewDashboard';
 
 function App() {
   let pageViewTitle = "Funds Dashboard"
-  let amountLeftToInvest = 10000000000
 
   return (
     <div className="App-content-container">
       <h1>{pageViewTitle}</h1>
-      <h2>$ {amountLeftToInvest} <span style={{fontSize: "16px", fontWeight: 400}}>left to invest</span></h2>
+      <ViewDashboard />
+      {/* <h2>$ {amountLeftToInvest} <span style={{fontSize: "16px", fontWeight: 400}}>left to invest</span></h2>
       <input type="text"></input>
       <button>Add Funds</button>
       <p>Sort by</p>
@@ -36,7 +37,7 @@ function App() {
               <td>$10000</td>
             </tr>
           </tbody>
-      </table>
+      </table> */}
     </div>
   );
 }
