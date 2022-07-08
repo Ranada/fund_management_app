@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 3000
-const investment_table_router = require("./database/investment_table_routes")
+const investment_table_router = require("../database/investment_table_routes")
 
 app.use(express.json());
 app.use("/investments", investment_table_router);
