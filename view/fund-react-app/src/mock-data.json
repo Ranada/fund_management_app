@@ -14,9 +14,14 @@
         "name": "Fund 3",
         "amount": 100000
     },
-     {
+    {
         "id": 4,
         "name": "New Fund Added",
         "amount": 500000
+    },
+    {
+        "id": 5,
+        "name": "Another New Fund Added",
+        "amount": 900000
     }
 ]
