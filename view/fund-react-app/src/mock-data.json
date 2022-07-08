@@ -1,27 +1,42 @@
 [
     {
         "id": 1,
-        "name": "Fund 1",
-        "amount": 1000
+        "name": "Apple Stock",
+        "amount": 1000,
+        "type": "Stock",
+        "ticker": "AAPL",
+        "company": "Apple"
     },
     {
         "id": 2,
-        "name": "Fund 2",
-        "amount": 20000
+        "name": "Google Stock",
+        "amount": 5000,
+        "type": "Stock",
+        "ticker": "GOOG",
+        "company": "Google"
     },
     {
         "id": 3,
-        "name": "Fund 3",
-        "amount": 100000
+        "name": "Vanguard Total Stock Market",
+        "amount": 50000,
+        "type": "Index Fund",
+        "ticker": "VTI",
+        "company": "Vanguard"
     },
     {
         "id": 4,
-        "name": "New Fund Added",
-        "amount": 500000
+        "name": "Qwasar Fund",
+        "amount": 5000000000,
+        "type": "Private Equity",
+        "ticker": "Not Applicable",
+        "company": "Qwasar"
     },
     {
         "id": 5,
-        "name": "Another New Fund Added",
-        "amount": 900000
+        "name": "Magellan Fund",
+        "amount": 2000000,
+        "type": "Mutual Fund",
+        "ticker": "FMAGX",
+        "company": "Fidelity"
     }
 ]
