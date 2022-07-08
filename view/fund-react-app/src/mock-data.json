@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Fund 1",
+        "amount": 1000
+    },
+    {
+        "id": 2,
+        "name": "Fund 2",
+        "amount": 20000
+    },
+    {
+        "id": 3,
+        "name": "Fund 3",
+        "amount": 100000
+    },
+    {
+        "id": 4,
+        "name": "New Fund Added",
+        "amount": 500000
+    },
+    {
+        "id": 5,
+        "name": "Another New Fund Added",
+        "amount": 900000
+    }
+]
