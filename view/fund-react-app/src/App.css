@@ -22,7 +22,7 @@ select {
 
 .App-content-container {
   width: 80%;
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
   text-align: left;
   font-family: Roboto, Lato, Arial, Helvetica, sans-serif;
