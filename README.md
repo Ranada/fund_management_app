@@ -24,8 +24,8 @@ Steps:
 <img src="./assets/fund-management-2.png" >
 
 ### The Core Team
-Neil Ranada, Frontend Engineer
-Ethan Scully, Backend Engineer
+Neil Ranada, Frontend Engineer </br>
+Ethan Scully, Backend Engineer </br>
 Ian Beauregard, Backend Engineer
 
 <span><i>Made at <a href='https://qwasar.io'>Qwasar Silicon Valley</a></i></span>
