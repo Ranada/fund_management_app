@@ -17,7 +17,11 @@ Steps:
 ## Usage
 3. `npm start`
 
-<img src="./docs/images/sqlite-demo-2.png" >
+### Fund dashboard
+<img src="./assets/fund-management-1.png" >
+
+### API for fund data
+<img src="./assets/fund-management-2.png" >
 
 ### The Core Team
 Neil Ranada, Frontend Engineer
