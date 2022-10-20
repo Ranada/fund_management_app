@@ -23,7 +23,7 @@ export default function FundsLeftToInvest() {
     const handleAddFormSubmit = (event) => {
         event.preventDefault();
 
-        let sumResult = parseInt(fundsLeft.amount) + parseInt(addFormData.amountToAdd)
+        let sumResult = fundsLeft.amount + parseInt(addFormData.amountToAdd)
 
         const newAmountLeft = {
             amount: sumResult
