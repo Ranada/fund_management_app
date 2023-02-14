@@ -2,7 +2,7 @@ import { useState } from 'react';
 import MockFundsLeft from '../../mock-funds-left.json';
 
 export default function FundsLeftToInvest() {
-    let [fundsLeft, setFundsLeft] = useState(MockFundsLeft)
+    let [fundsLeft, setFundsLeft] = useState(MockFundsLeft);
 
     const [addFormData, setAddFormData] = useState({
         amountToAdd: 0
