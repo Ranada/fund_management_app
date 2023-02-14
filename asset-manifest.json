@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fund_management_app/static/css/main.99faa065.css",
-    "main.js": "/fund_management_app/static/js/main.f4461594.js",
+    "main.js": "/fund_management_app/static/js/main.06f1035d.js",
     "index.html": "/fund_management_app/index.html",
     "main.99faa065.css.map": "/fund_management_app/static/css/main.99faa065.css.map",
-    "main.f4461594.js.map": "/fund_management_app/static/js/main.f4461594.js.map"
+    "main.06f1035d.js.map": "/fund_management_app/static/js/main.06f1035d.js.map"
   },
   "entrypoints": [
     "static/css/main.99faa065.css",
-    "static/js/main.f4461594.js"
+    "static/js/main.06f1035d.js"
   ]
 }
